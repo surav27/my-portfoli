@@ -1,8 +1,8 @@
 /* share style */
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 .open-sans-font {
@@ -27,7 +27,10 @@
 /* main style */
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
     padding: 50px;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
 }
 nav{
     width: 71%;
@@ -57,10 +60,61 @@ nav .menu a{
 /* hero section */
 
 .details{
-    border: 1px solid maroon;
     width: 1332px;
-    height: 676px;
+    height: 576px;
     margin: 48px 53px 0px 215px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.text{
+    width: 585px;
+    height: 262px;
+    
+}
+.text h3{
+    font-size: 45px;
+    font-weight: 500;
+}
+.text h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 18px;
+    text-align: justify;
+}
+.button{
+background-color: #FD6E0A;
+padding: 16px 18px;
+border: none;
+ color: white;
+ border-radius: 5px;
+
+
+}
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+     color: white;
+
+}
+.con-btn{
+    padding: 15px 18px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.con-btn a{
+    color: #FD6E0A;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+image{
+    width: 584px;
+    height: 576px;
+    vertical-align: middle;
+    margin-bottom: 0px;
 }
