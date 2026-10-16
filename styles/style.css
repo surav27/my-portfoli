@@ -1,9 +1,55 @@
+/* share style */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+}
+.font-orange{
+    color: #FD6E0A;
+
+}
+.btn{
+   background-color: #FD6E0A; 
+   border-radius: 5%;
+   color: #FFFFFF;
+   padding: 18px 35px;
+   border: none;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* main style */
+header{
+    background-color: #FFF8F3;
+    padding: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo h2{
+    font-size: 45px;
+    color: #181818;
+    font-weight: 900;
+}
+nav .menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size:20px;
 }
